@@ -5,11 +5,10 @@ public class Main {
 
         //Sucktion sucktion = new Sucktion();
 
-        Multithreading mt1st = new Multithreading();
-        Multithreading mt2nd = new Multithreading();
-
-        mt1st.start();
-        mt2nd.start();
+        for (int i = 0; i <10000;i++) {
+            Multithreading mt1st = new Multithreading();
+            mt1st.start();
+        }
 
        /*Thread thread = new Thread(sucktion::printSucktion);
         Thread thread1 = new Thread(sucktion::printSucktion);
