@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="037f8065-d010-4246-88d5-6a6312d9e0f1" name="Changes" comment="current knowledge of concurrency (will be fixed in the near future)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Multithreading.java" afterDir="false" />
+    <list default="true" id="037f8065-d010-4246-88d5-6a6312d9e0f1" name="Changes" comment="10k threads executed into the right way">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Multithreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Multithreading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,7 @@
       <updated>1663495672793</updated>
       <workItem from="1663495674118" duration="5454000" />
       <workItem from="1663608516366" duration="378000" />
-      <workItem from="1663610116732" duration="992000" />
+      <workItem from="1663610116732" duration="2309000" />
     </task>
     <task id="LOCAL-00001" summary="new thread">
       <created>1663527271282</created>
@@ -80,7 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663610723186</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="was determined difference between run() and start()">
+      <created>1663611309368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663611309368</updated>
+    </task>
+    <task id="LOCAL-00004" summary="10k threads executed into the right way">
+      <created>1663611398765</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663611398765</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +114,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new thread" />
     <MESSAGE value="current knowledge of concurrency (will be fixed in the near future)" />
-    <option name="LAST_COMMIT_MESSAGE" value="current knowledge of concurrency (will be fixed in the near future)" />
+    <MESSAGE value="was determined difference between run() and start()" />
+    <MESSAGE value="10k threads executed into the right way" />
+    <option name="LAST_COMMIT_MESSAGE" value="10k threads executed into the right way" />
   </component>
 </project>

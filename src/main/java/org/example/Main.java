@@ -6,8 +6,9 @@ public class Main {
         //Sucktion sucktion = new Sucktion();
 
         for (int i = 0; i <10000;i++) {
-            Multithreading mt1st = new Multithreading();
-            mt1st.start();
+            Multithreading mt1st = new Multithreading(i);
+            Thread newThread = new Thread(mt1st);
+            newThread.start();
         }
 
        /*Thread thread = new Thread(sucktion::printSucktion);
