@@ -1,17 +1,23 @@
 package org.example;
 
-import java.util.concurrent.ThreadPoolExecutor;
-
 public class Main {
     public static void main(String[] args){
 
-        Sucktion sucktion = new Sucktion();
+        //Sucktion sucktion = new Sucktion();
 
-        Thread thread = new Thread(sucktion::printSucktion);
+        Multithreading mt1st = new Multithreading();
+        Multithreading mt2nd = new Multithreading();
+
+        mt1st.start();
+        mt2nd.start();
+
+       /*Thread thread = new Thread(sucktion::printSucktion);
         Thread thread1 = new Thread(sucktion::printSucktion);
 
         thread.start();
         thread1.start();
+        */
+
 
     }
 

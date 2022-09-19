@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="037f8065-d010-4246-88d5-6a6312d9e0f1" name="Changes" comment="new thread">
+    <list default="true" id="037f8065-d010-4246-88d5-6a6312d9e0f1" name="Changes" comment="current knowledge of concurrency (will be fixed in the near future)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Multithreading.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -12,6 +13,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,7 +64,7 @@
       <updated>1663495672793</updated>
       <workItem from="1663495674118" duration="5454000" />
       <workItem from="1663608516366" duration="378000" />
-      <workItem from="1663610116732" duration="317000" />
+      <workItem from="1663610116732" duration="992000" />
     </task>
     <task id="LOCAL-00001" summary="new thread">
       <created>1663527271282</created>
@@ -65,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663527271282</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="current knowledge of concurrency (will be fixed in the near future)">
+      <created>1663610723186</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663610723186</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="new thread" />
+    <MESSAGE value="current knowledge of concurrency (will be fixed in the near future)" />
+    <option name="LAST_COMMIT_MESSAGE" value="current knowledge of concurrency (will be fixed in the near future)" />
   </component>
 </project>
